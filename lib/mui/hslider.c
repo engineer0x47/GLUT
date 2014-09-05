@@ -35,8 +35,8 @@
  * OpenGL(R) is a registered trademark of Silicon Graphics, Inc.
  */
 
-#include <stdlib.h>
 #include <GL/glut.h>
+#include <stdlib.h>
 #include <mui/gizmo.h>
 #include <mui/hslider.h>
 #include <mui/displaylist.h>

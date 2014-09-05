@@ -1,5 +1,5 @@
 
-/* Copyright (c) Mark J. Kilgard, 1994, 1997. */
+/* Copyright (c) Mark J. Kilgard, 1994, 1997, 2001. */
 
 /* This program is freely distributable without licensing fees
    and is provided without guarantee or warrantee expressed or
@@ -10,21 +10,36 @@
 
 #include "glutint.h"
 
+static const GLubyte *extensions = NULL;
+static GLXContext cachedContext = NULL;
+
+void
+__glutInvalidateExtensionStringCacheIfNeeded(GLXContext context)
+{
+  if (cachedContext != context) {
+    /* No invalidation required. */
+    return;
+  }
+  cachedContext = NULL;
+  extensions = NULL;
+}
+
 /* CENTRY */
-int APIENTRY 
+int GLUTAPIENTRY 
 glutExtensionSupported(const char *extension)
 {
-  static const GLubyte *extensions = NULL;
   const GLubyte *start;
-  GLubyte *where, *terminator;
+  const GLubyte *where, *terminator;
 
   /* Extension names should not have spaces. */
   where = (GLubyte *) strchr(extension, ' ');
-  if (where || *extension == '\0')
+  if (where || *extension == '\0') {
     return 0;
+  }
 
-  if (!extensions) {
+  if (!extensions || (GET_CURRENT_CONTEXT() != cachedContext)) {
     extensions = glGetString(GL_EXTENSIONS);
+    cachedContext = GET_CURRENT_CONTEXT();
   }
   /* It takes a bit of care to be fool-proof about parsing the
      OpenGL extensions string.  Don't be fooled by sub-strings,
@@ -36,9 +51,10 @@ glutExtensionSupported(const char *extension)
        having a current window.  Calling glGetString without
        a current OpenGL context has unpredictable results.
        Please fix your program. */
-    where = (GLubyte *) strstr((const char *) start, extension);
-    if (!where)
+    where = (const GLubyte *) strstr((const char *) start, extension);
+    if (!where) {
       break;
+    }
     terminator = where + strlen(extension);
     if (where == start || *(where - 1) == ' ') {
       if (*terminator == ' ' || *terminator == '\0') {

@@ -80,7 +80,7 @@ void parsebrowsefile(FILE *f)
 
 void setcurrentfilename(char *s)
 {
-    int len = (int)(strlen(s));
+    int len = strlen(s);
     char *sptr;
     
     sptr = &s[len-1];

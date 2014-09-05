@@ -39,10 +39,10 @@
  /*	    Tom Davis		 */
  /*	 February 7, 1992	 */
 
-#include <stdlib.h>
-#include <string.h>
 #include <GL/glut.h>
 #include <mui/gizmo.h>
+#include <stdlib.h>
+#include <string.h>
 #include <mui/uicolor.h>
 #include <mui/displaylist.h>
 
