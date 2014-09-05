@@ -1,0 +1,168 @@
+﻿  glut_8x13.c
+  glut_9x15.c
+  glut_bitmap.c
+  glut_bwidth.c
+  glut_cindex.c
+  glut_cmap.c
+  glut_cursor.c
+  glut_dials.c
+  glut_dstr.c
+  glut_event.c
+  glut_ext.c
+  glut_fcb.c
+  glut_fullscrn.c
+  glut_gamemode.c
+  glut_get.c
+  glut_glxext.c
+  glut_hel10.c
+  glut_hel12.c
+  glut_hel18.c
+  glut_init.c
+  glut_input.c
+  glut_joy.c
+  glut_key.c
+  glut_keyctrl.c
+  glut_keyup.c
+  glut_mesa.c
+  glut_modifier.c
+  glut_mroman.c
+  glut_overlay.c
+  glut_roman.c
+  glut_shapes.c
+  glut_space.c
+  glut_stroke.c
+  glut_swap.c
+  glut_swidth.c
+  glut_tablet.c
+  glut_teapot.c
+  glut_tr10.c
+  glut_tr24.c
+  glut_util.c
+  glut_vidresize.c
+  glut_warp.c
+  glut_win.c
+  glut_winmisc.c
+  win32_glx.c
+  win32_menu.c
+  win32_util.c
+  win32_winproc.c
+  win32_x11.c
+glut_bitmap.obj : warning LNK4197: export 'glutBitmapCharacter' specified multiple times; using first specification
+glut_bwidth.obj : warning LNK4197: export 'glutBitmapWidth' specified multiple times; using first specification
+glut_bwidth.obj : warning LNK4197: export 'glutBitmapLength' specified multiple times; using first specification
+glut_cindex.obj : warning LNK4197: export 'glutSetColor' specified multiple times; using first specification
+glut_cindex.obj : warning LNK4197: export 'glutGetColor' specified multiple times; using first specification
+glut_cindex.obj : warning LNK4197: export 'glutCopyColormap' specified multiple times; using first specification
+glut_cursor.obj : warning LNK4197: export 'glutSetCursor' specified multiple times; using first specification
+glut_dials.obj : warning LNK4197: export 'glutButtonBoxFunc' specified multiple times; using first specification
+glut_dials.obj : warning LNK4197: export 'glutDialsFunc' specified multiple times; using first specification
+glut_dstr.obj : warning LNK4197: export 'glutInitDisplayString' specified multiple times; using first specification
+glut_event.obj : warning LNK4197: export 'glutMainLoop' specified multiple times; using first specification
+glut_event.obj : warning LNK4197: export 'glutPostRedisplay' specified multiple times; using first specification
+glut_event.obj : warning LNK4197: export 'glutPostWindowRedisplay' specified multiple times; using first specification
+glut_event.obj : warning LNK4197: export 'glutIdleFunc' specified multiple times; using first specification
+glut_event.obj : warning LNK4197: export 'glutTimerFunc' specified multiple times; using first specification
+glut_ext.obj : warning LNK4197: export 'glutExtensionSupported' specified multiple times; using first specification
+glut_fullscrn.obj : warning LNK4197: export 'glutFullScreen' specified multiple times; using first specification
+glut_gamemode.obj : warning LNK4197: export 'glutGameModeString' specified multiple times; using first specification
+glut_gamemode.obj : warning LNK4197: export 'glutEnterGameMode' specified multiple times; using first specification
+glut_gamemode.obj : warning LNK4197: export 'glutLeaveGameMode' specified multiple times; using first specification
+glut_gamemode.obj : warning LNK4197: export 'glutGameModeGet' specified multiple times; using first specification
+glut_get.obj : warning LNK4197: export 'glutGet' specified multiple times; using first specification
+glut_init.obj : warning LNK4197: export 'glutInit' specified multiple times; using first specification
+glut_init.obj : warning LNK4197: export '__glutInitWithExit' specified multiple times; using first specification
+glut_init.obj : warning LNK4197: export 'glutInitDisplayMode' specified multiple times; using first specification
+glut_init.obj : warning LNK4197: export 'glutInitWindowPosition' specified multiple times; using first specification
+glut_init.obj : warning LNK4197: export 'glutInitWindowSize' specified multiple times; using first specification
+glut_input.obj : warning LNK4197: export 'glutDeviceGet' specified multiple times; using first specification
+glut_joy.obj : warning LNK4197: export 'glutJoystickFunc' specified multiple times; using first specification
+glut_joy.obj : warning LNK4197: export 'glutForceJoystickFunc' specified multiple times; using first specification
+glut_key.obj : warning LNK4197: export 'glutKeyboardFunc' specified multiple times; using first specification
+glut_key.obj : warning LNK4197: export 'glutSpecialFunc' specified multiple times; using first specification
+glut_keyctrl.obj : warning LNK4197: export 'glutIgnoreKeyRepeat' specified multiple times; using first specification
+glut_keyctrl.obj : warning LNK4197: export 'glutSetKeyRepeat' specified multiple times; using first specification
+glut_keyup.obj : warning LNK4197: export 'glutKeyboardUpFunc' specified multiple times; using first specification
+glut_keyup.obj : warning LNK4197: export 'glutSpecialUpFunc' specified multiple times; using first specification
+glut_modifier.obj : warning LNK4197: export 'glutGetModifiers' specified multiple times; using first specification
+glut_overlay.obj : warning LNK4197: export 'glutEstablishOverlay' specified multiple times; using first specification
+glut_overlay.obj : warning LNK4197: export 'glutRemoveOverlay' specified multiple times; using first specification
+glut_overlay.obj : warning LNK4197: export 'glutUseLayer' specified multiple times; using first specification
+glut_overlay.obj : warning LNK4197: export 'glutPostOverlayRedisplay' specified multiple times; using first specification
+glut_overlay.obj : warning LNK4197: export 'glutPostWindowOverlayRedisplay' specified multiple times; using first specification
+glut_overlay.obj : warning LNK4197: export 'glutShowOverlay' specified multiple times; using first specification
+glut_overlay.obj : warning LNK4197: export 'glutHideOverlay' specified multiple times; using first specification
+glut_overlay.obj : warning LNK4197: export 'glutOverlayDisplayFunc' specified multiple times; using first specification
+glut_overlay.obj : warning LNK4197: export 'glutLayerGet' specified multiple times; using first specification
+glut_shapes.obj : warning LNK4197: export 'glutWireSphere' specified multiple times; using first specification
+glut_shapes.obj : warning LNK4197: export 'glutSolidSphere' specified multiple times; using first specification
+glut_shapes.obj : warning LNK4197: export 'glutWireCone' specified multiple times; using first specification
+glut_shapes.obj : warning LNK4197: export 'glutSolidCone' specified multiple times; using first specification
+glut_shapes.obj : warning LNK4197: export 'glutWireCube' specified multiple times; using first specification
+glut_shapes.obj : warning LNK4197: export 'glutSolidCube' specified multiple times; using first specification
+glut_shapes.obj : warning LNK4197: export 'glutWireTorus' specified multiple times; using first specification
+glut_shapes.obj : warning LNK4197: export 'glutSolidTorus' specified multiple times; using first specification
+glut_shapes.obj : warning LNK4197: export 'glutWireDodecahedron' specified multiple times; using first specification
+glut_shapes.obj : warning LNK4197: export 'glutSolidDodecahedron' specified multiple times; using first specification
+glut_shapes.obj : warning LNK4197: export 'glutWireOctahedron' specified multiple times; using first specification
+glut_shapes.obj : warning LNK4197: export 'glutSolidOctahedron' specified multiple times; using first specification
+glut_shapes.obj : warning LNK4197: export 'glutWireTetrahedron' specified multiple times; using first specification
+glut_shapes.obj : warning LNK4197: export 'glutSolidTetrahedron' specified multiple times; using first specification
+glut_shapes.obj : warning LNK4197: export 'glutWireIcosahedron' specified multiple times; using first specification
+glut_shapes.obj : warning LNK4197: export 'glutSolidIcosahedron' specified multiple times; using first specification
+glut_space.obj : warning LNK4197: export 'glutSpaceballMotionFunc' specified multiple times; using first specification
+glut_space.obj : warning LNK4197: export 'glutSpaceballRotateFunc' specified multiple times; using first specification
+glut_space.obj : warning LNK4197: export 'glutSpaceballButtonFunc' specified multiple times; using first specification
+glut_stroke.obj : warning LNK4197: export 'glutStrokeCharacter' specified multiple times; using first specification
+glut_swap.obj : warning LNK4197: export 'glutSwapBuffers' specified multiple times; using first specification
+glut_swidth.obj : warning LNK4197: export 'glutStrokeWidth' specified multiple times; using first specification
+glut_swidth.obj : warning LNK4197: export 'glutStrokeLength' specified multiple times; using first specification
+glut_tablet.obj : warning LNK4197: export 'glutTabletMotionFunc' specified multiple times; using first specification
+glut_tablet.obj : warning LNK4197: export 'glutTabletButtonFunc' specified multiple times; using first specification
+glut_teapot.obj : warning LNK4197: export 'glutWireTeapot' specified multiple times; using first specification
+glut_teapot.obj : warning LNK4197: export 'glutSolidTeapot' specified multiple times; using first specification
+glut_util.obj : warning LNK4197: export 'glutReportErrors' specified multiple times; using first specification
+glut_vidresize.obj : warning LNK4197: export 'glutVideoResizeGet' specified multiple times; using first specification
+glut_vidresize.obj : warning LNK4197: export 'glutSetupVideoResizing' specified multiple times; using first specification
+glut_vidresize.obj : warning LNK4197: export 'glutStopVideoResizing' specified multiple times; using first specification
+glut_vidresize.obj : warning LNK4197: export 'glutVideoResize' specified multiple times; using first specification
+glut_vidresize.obj : warning LNK4197: export 'glutVideoPan' specified multiple times; using first specification
+glut_warp.obj : warning LNK4197: export 'glutWarpPointer' specified multiple times; using first specification
+glut_win.obj : warning LNK4197: export 'glutCreateWindow' specified multiple times; using first specification
+glut_win.obj : warning LNK4197: export '__glutCreateWindowWithExit' specified multiple times; using first specification
+glut_win.obj : warning LNK4197: export 'glutCreateSubWindow' specified multiple times; using first specification
+glut_win.obj : warning LNK4197: export 'glutDestroyWindow' specified multiple times; using first specification
+glut_win.obj : warning LNK4197: export 'glutGetWindow' specified multiple times; using first specification
+glut_win.obj : warning LNK4197: export 'glutSetWindow' specified multiple times; using first specification
+glut_win.obj : warning LNK4197: export 'glutDisplayFunc' specified multiple times; using first specification
+glut_win.obj : warning LNK4197: export 'glutReshapeFunc' specified multiple times; using first specification
+glut_win.obj : warning LNK4197: export 'glutMouseFunc' specified multiple times; using first specification
+glut_win.obj : warning LNK4197: export 'glutMotionFunc' specified multiple times; using first specification
+glut_win.obj : warning LNK4197: export 'glutPassiveMotionFunc' specified multiple times; using first specification
+glut_win.obj : warning LNK4197: export 'glutEntryFunc' specified multiple times; using first specification
+glut_win.obj : warning LNK4197: export 'glutVisibilityFunc' specified multiple times; using first specification
+glut_win.obj : warning LNK4197: export 'glutWindowStatusFunc' specified multiple times; using first specification
+glut_winmisc.obj : warning LNK4197: export 'glutSetWindowTitle' specified multiple times; using first specification
+glut_winmisc.obj : warning LNK4197: export 'glutSetIconTitle' specified multiple times; using first specification
+glut_winmisc.obj : warning LNK4197: export 'glutPositionWindow' specified multiple times; using first specification
+glut_winmisc.obj : warning LNK4197: export 'glutReshapeWindow' specified multiple times; using first specification
+glut_winmisc.obj : warning LNK4197: export 'glutPopWindow' specified multiple times; using first specification
+glut_winmisc.obj : warning LNK4197: export 'glutPushWindow' specified multiple times; using first specification
+glut_winmisc.obj : warning LNK4197: export 'glutIconifyWindow' specified multiple times; using first specification
+glut_winmisc.obj : warning LNK4197: export 'glutShowWindow' specified multiple times; using first specification
+glut_winmisc.obj : warning LNK4197: export 'glutHideWindow' specified multiple times; using first specification
+win32_menu.obj : warning LNK4197: export 'glutCreateMenu' specified multiple times; using first specification
+win32_menu.obj : warning LNK4197: export '__glutCreateMenuWithExit' specified multiple times; using first specification
+win32_menu.obj : warning LNK4197: export 'glutDestroyMenu' specified multiple times; using first specification
+win32_menu.obj : warning LNK4197: export 'glutGetMenu' specified multiple times; using first specification
+win32_menu.obj : warning LNK4197: export 'glutSetMenu' specified multiple times; using first specification
+win32_menu.obj : warning LNK4197: export 'glutAddMenuEntry' specified multiple times; using first specification
+win32_menu.obj : warning LNK4197: export 'glutAddSubMenu' specified multiple times; using first specification
+win32_menu.obj : warning LNK4197: export 'glutChangeToMenuEntry' specified multiple times; using first specification
+win32_menu.obj : warning LNK4197: export 'glutChangeToSubMenu' specified multiple times; using first specification
+win32_menu.obj : warning LNK4197: export 'glutRemoveMenuItem' specified multiple times; using first specification
+win32_menu.obj : warning LNK4197: export 'glutAttachMenu' specified multiple times; using first specification
+win32_menu.obj : warning LNK4197: export 'glutDetachMenu' specified multiple times; using first specification
+win32_menu.obj : warning LNK4197: export 'glutMenuStateFunc' specified multiple times; using first specification
+win32_menu.obj : warning LNK4197: export 'glutMenuStatusFunc' specified multiple times; using first specification
+     Creating library .\Release\glut64.lib and object .\Release\glut64.exp
+  glut32.vcxproj -> D:\Dev\VS2012\glut-3.7.6\lib\glut\..\..\bin\glut64.dll

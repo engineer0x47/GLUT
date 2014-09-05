@@ -1,0 +1,13 @@
+﻿  browseparse.c
+  button.c
+  displaylist.c
+  gizmo.c
+  glutmui.c
+  hslider.c
+  miscui.c
+  mui.c
+  pulldown.c
+  textlist.c
+  uicolor.c
+  vslider.c
+  mui.vcxproj -> D:\Dev\VS2012\glut-3.7.6\lib\mui\..\..\bin\mui64.lib

@@ -1,0 +1,25 @@
+﻿  smap_buildsmap.c
+  smap_context.c
+  smap_create.c
+  smap_destroy.c
+  smap_drawmesh.c
+  smap_flag.c
+  smap_get.c
+  smap_getfunc.c
+  smap_gettexdim.c
+  smap_gettexobj.c
+  smap_getvec.c
+  smap_makemesh.c
+  smap_nearfar.c
+  smap_origin.c
+  smap_render.c
+  smap_rvec2st.c
+  smap_set.c
+  smap_setfunc.c
+  smap_setvec.c
+  smap_texdim.c
+  Generating Code...
+  Compiling...
+  smap_texobj.c
+  Generating Code...
+  glsmap.vcxproj -> D:\Dev\VS2012\glut-3.7.6\lib\glsmap\..\..\bin\glsmap64.lib
